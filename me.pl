@@ -1,0 +1,1 @@
+sub main(){use strict;use warnings;my$x=("&I\'m: M6.h\#FjAg6Z\$\%R>I N8IghZt5AzR,[ a])");my$y=("C;Perl;PHP;Python;Programmer;");while($x=~s/[^. a'mA-Z,]//g){if($y=~m/C\;(.*?)\;PHP\;Python\;(.*?)\;/g){printf("\n\n\t\t\t$x $1 $2\n\n");}}}main();
